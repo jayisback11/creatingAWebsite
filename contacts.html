@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  rel="stylesheet" href="style.css">
+        <link  rel="stylesheet" href="contact.css">
+        <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@700&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+<div class="navbar">
+    <p><a href="index.html"><i class="fa fa-fw fa-home"></i>Home</a> 
+        <a href="projects.html"><i class="fa fa-fw fa-folder"></i>Projects</a> 
+        <a class="active" href="contacts.html"><i class="fa fa-fw fa-envelope"></i>Contact</a></p>
+</div>
+
+<!--This is the contact form, copied from w3schools.com and revise by me-->
+<div class="container" style="margin: 25px 600px 25px 600px">
+    <div class="margin" style="text-align:center; color: white;">
+      <h2 class="name">Contact me</h2>
+      <h3 style="font-size: 175%;"><i class="fa fa-fw fa-user"></i> Jay Bautista Crisostomo</h3>
+      <h3 style="font-size: 140%;"><i class="fa fa-fw fa-mobile" ></i> +1 (225) 421-5949</h3>
+      <h3><i class="fa fa-fw fa-graduation-cap"></i> jcriso1@lsu.edu</h3>
+      <h3><i class="fa fa-fw fa-envelope-o"></i> jaycris2000@gmail.com</h3>
+    </div>
+    <h1 class="name" style="text-align: center; margin-top: 20px">OR</h1>
+    <div class="row">
+      <div class="column title">
+        <form action="https://formspree.io/f/xgerwvwg" method="POST" id="my-form">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="example@xyz.com">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+          <script src="./main.js"></script>
+        </form>
+      </div>
+      <div id="status" class="success"></div>
+    </div>
+  </div>
+
+</body>
+</html>

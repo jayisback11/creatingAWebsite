@@ -1,0 +1,117 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(85, 58, 58);
+  border: solid;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  margin-right: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar p {
+  margin: 0px 0px 0px 40%;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: rgb(107, 102, 102);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.margin{
+    margin-top: 15px;
+}
+
+.profilePicture {
+  border-radius: 25px;
+    width: 450px;
+    height: 450px;
+  }
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.name {
+  font-family: 'Ranchers', cursive;
+  font-size:250%;
+  margin:0;
+  padding:0;
+  color: white;
+}
+
+.title {
+  font-family: 'Ranchers', cursive;
+  color: rgb(253, 238, 238);
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.description {
+  font-family: "Times New Roman", Times, serif;
+  font-size:150%;
+  margin:0;
+  padding:0;
+}
+
+.textMargin {
+  margin-right: 450px;
+  margin-left: 450px;
+}
+
+.border {
+  border-radius: 25px;
+  background: rgb(85, 58, 58);
+  border: 2px solid black;
+  padding: 50px;
+}
+html {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.projectName {
+  font-family: 'Ranchers', cursive;
+  font-size:250%;
+  margin:0;
+  padding:0;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.success {
+  background-color: green;
+}
